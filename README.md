@@ -1,4 +1,5 @@
-# opencart-module-generator
+# Opencart Module Generator
+
 Opencart Module Scaffolding Generator for Opencart Developers. 
 
 Create Basic Structured Admin Module along with basic Opencart supported form fields.
