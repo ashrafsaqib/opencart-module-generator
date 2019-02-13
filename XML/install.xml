@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+<field type="image"  name="image" label="Custom Image">
+
+</field>
+
+<field type="image"  name="image_default" label="Default Image">
+
+</field>
+
+<field type="color"  name="Color_Picker" label="Chose Color">
+
+</field>
+
+
+<field type="color"  name="Color_Picker1" label="Chose Color">
+
+</field>
+
+
+<field type="color"  name="Color_Picker2" label="Chose Color">
+
+</field>
+
+<field type="select" name="Select_Box" label="Select Device">
+
+<option label="Select Device" value="selected" selected="selected">
+
+</option>
+
+<option label="Desktop" value="1">
+
+</option>
+
+<option label="Tablet" value="2">
+
+</option>
+
+
+<option label="Mobile" value="3">
+
+</option>
+
+</field>	
+
+<field type="checkbox" name="device_type" label="Select Device to Display">
+
+<option label="Desktop" value="1">
+
+</option>
+
+<option label="Tablet" value="1">
+
+</option>
+
+
+<option label="Mobile" value="1">
+
+</option>
+
+</field>
+
+<field type="radio" name="arrow_type" label="Select Arrow Type">
+
+<option label="Custom" value="custom">
+
+</option>
+
+<option label="Default" value="default">
+
+</option>
+
+
+<option label="None" value="none">
+
+</option>
+
+</field>
+
+<field type="text" name="width_desktop" label="Width for Desktop">
+
+</field>
+
+<field type="textarea" name="comment" label="Comments">
+
+</field>
+
+</plugin>

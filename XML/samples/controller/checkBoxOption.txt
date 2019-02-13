@@ -1,0 +1,9 @@
+		
+	if (isset($this->request->post['<module>_<field>_<index>'])) {
+		$data['<module>_<field>_<index>'] = $this->request->post['<module>_<field>_<index>'];
+	} elseif (!empty($module_info)) {
+			$data['<module>_<field>_<index>'] = $module_info['<module>_<field>_<index>'];
+		} else {
+		$data['<module>_<field>_<index>'] = "0";
+	}
+		$data['text_<module>_<field>_<index>']=$this->language->get('text_<module>_<field>_<index>');

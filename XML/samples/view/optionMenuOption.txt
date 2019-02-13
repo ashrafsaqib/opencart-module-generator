@@ -1,0 +1,6 @@
+              
+              
+              <option  {% if <module>_<field>=="<value>" %}  {{"selected"}} {% endif %}  value="<value>" >{{ text_<module>_<field>_<index> }}</option>
+              
+                
+              

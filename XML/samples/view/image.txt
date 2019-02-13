@@ -1,0 +1,8 @@
+
+		<div class="form-group">
+             <label class="control-label col-sm-2">{{text_<module>_<name>}}</label>
+             <div class="col-sm-10">
+             <a href="" id="thumb-<module>_<name>" data-toggle="image" class="img-thumbnail"><img src="{{ <module>_<name>_thumb }}" alt="" title="" data-placeholder="{{ placeholder }}"/></a>
+             <input type="hidden" name="<module>_<name>" value="{{ <module>_<name> }}" id="input-<module>_<name>" />
+             </div>
+         </div>

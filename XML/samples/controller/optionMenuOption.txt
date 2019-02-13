@@ -1,0 +1,3 @@
+
+
+		$data['text_<module>_<field>_<index>']=$this->language->get('text_<module>_<field>_<index>');

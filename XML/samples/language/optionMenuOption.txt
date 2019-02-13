@@ -1,0 +1,2 @@
+
+		$_['text_<module>_<name>_<index>']        = '<label>';

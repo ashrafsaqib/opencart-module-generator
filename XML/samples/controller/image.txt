@@ -1,0 +1,20 @@
+	
+		$this->load->model('tool/image');
+		if (isset($this->request->post['<module>_<field>'])) {
+			$data['<module>_<field>'] =$this->request->post['<module>_<field>'];
+			$data['<module>_<field>_thumb'] =$this->model_tool_image->resize( $this->request->post['<module>_<field>'], 100, 100);
+		
+
+		} elseif (!empty($module_info) && is_file(DIR_IMAGE . $module_info['<module>_<field>'])){
+
+			$data['<module>_<field>'] =$module_info['<module>_<field>'];
+			 $data['<module>_<field>_thumb'] =$this->model_tool_image->resize($module_info['<module>_<field>'], 100, 100);
+
+		} else {
+			$data['<module>_<field>'] ="";
+			$data['<module>_<field>_thumb'] = $this->model_tool_image->resize('no_image.png', 100, 100);
+		}
+			
+			$data['placeholder'] = $this->model_tool_image->resize('no_image.png', 100, 100);
+
+			$data['text_<module>_<field>']=$this->language->get('text_<module>_<field>');

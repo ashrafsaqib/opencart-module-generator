@@ -1,0 +1,5 @@
+
+            <label> 
+              {{ text_<module>_<field>_<index> }}
+    <input type="radio" value="<value>" name="<module>_<field>" {% if <module>_<field>=="<value>" %} {{ 'checked' }}{% endif %}  />
+            </label>

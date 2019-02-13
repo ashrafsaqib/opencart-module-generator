@@ -1,0 +1,3 @@
+
+		<label>
+               <input type="hidden" value="0" name="<module>_<field>_<index>" /><input type="checkbox" {% if <module>_<field>_<index>=="1" %}  {{"checked"}} {% endif %} value="1" name="<module>_<field>_<index>" /> {{ text_<module>_<field>_<index> }} </label>
